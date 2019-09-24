@@ -9,7 +9,7 @@
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="StockApp"></Label>
-         <Button Text="Conectar" Clicked="OnButtonClicked"></Button>
+         <Button Text="Connect to Market" Clicked="OnButtonClicked"></Button>
          <ListView x:Name="lstItems" IsGroupingEnabled="False">
              <ListView.ItemTemplate>
                 <DataTemplate>
